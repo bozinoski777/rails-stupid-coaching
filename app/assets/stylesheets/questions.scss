@@ -1,0 +1,24 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#button {
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #337AB7;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: 0px;
+}
+
+#inputi {
+  padding: 8px;
+  margin-right: 0px;
+  box-shadow: inset 0 0 2px #000000;
+}
+
+blockquote {
+  padding-left: 5px;
+  border-left: 4px solid gray;
+  font-size: 20px;
+}

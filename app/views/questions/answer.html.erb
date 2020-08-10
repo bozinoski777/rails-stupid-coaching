@@ -1,0 +1,14 @@
+<blockquote> <%= params[:question] %> <br> <em>-You</em></blockquote>
+
+<blockquote>
+<% if params[:question] == "I am going to work" %>
+     <% answer = "Great!" %>
+<% elsif params[:question].chars[-1] == "?" %>
+     <% answer = "Silly question, get dressed and go to work!" %>
+<% else %>
+    <% answer = "I don't care, get dressed and go to work!" %>
+<% end %>
+<strong><%= answer %></strong>
+<br> <em>-Your Coach</em>
+</blockquote>
+<%= link_to 'Ask another Question', '/ask' %>
